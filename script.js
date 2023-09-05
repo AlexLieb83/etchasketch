@@ -9,7 +9,8 @@ resizeBtn.addEventListener("click", () => {
   );
 
   gridContainer.innerHTML = "";
-
+  gridContainer.style.gridTemplateRows = `repeat(${resizeNum}, 1fr)`;
+  gridContainer.style.gridTemplateColumns = `repeat(${resizeNum}, 1fr)`;
   buildGrid(resizeNum * resizeNum);
 });
 
