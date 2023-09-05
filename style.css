@@ -8,6 +8,19 @@ h1 {
   text-align: center;
 }
 
+button {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(16, 32px [col-start]);
